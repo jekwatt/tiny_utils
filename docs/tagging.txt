@@ -1,0 +1,7 @@
+# tagging.txt
+
+# Tagging: The use of tagging can be used to label specific sections of code
+# where known issues or areas of improvement are located.
+# Some examples are: BUG, FIXME, and TODO.
+
+# TODO: Add condition for when val is None

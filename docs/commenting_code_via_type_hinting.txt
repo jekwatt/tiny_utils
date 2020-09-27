@@ -1,0 +1,10 @@
+# commenting_code_via_type_hinting.txt
+
+# Commenting code via type hinting (Python 3.5+).
+# Type hinting was added to Python 3.5 and is an additional form to help the reader of your code.
+# It allows the developer to design and explain portions of your code without commenting.
+
+Here's a simple example:
+
+def hello_name(name: str) -> str:
+    return(f"Hello {name}")

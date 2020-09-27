@@ -1,0 +1,29 @@
+# single_and_multi_lined_docstrings.txt
+
+# In all cases, the docstrings should use the triple-double quote(""")
+# string format.
+# This should be done whether the docstring is multi-lined or not.
+# At a bare minum, a docstring shoudl be a quick summary of whatever is it
+# you're describing and should be contained within a single line.
+
+# Single-lined docstring example:
+"""This is a quick summary line used as description of the object."""
+
+# Multi-lined docstrings are used to further elaborate on the object beyond the summary.
+# All multi-lined docstrings have the following parts:
+# - A one-line summary line
+# - A blank line proceeding the summary
+# - Any further elaboration for the docstring
+# - Another blank line
+
+# Multi-lined docstring example:
+"""This is the summary line
+
+This is the further elaboration of the docstring.  Within this section,
+you can elaborate further on details as appropriate for the situation.
+Notice that the summary and the elaboration is separated by a blank new
+line.
+"""
+
+# Notice the blank line above.  Code should continue on this line.
+
